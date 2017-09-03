@@ -1,5 +1,11 @@
-# car-tracker-seed
-seed for the Full-Stack IOT training project: car-tracker
+# car-tracker
+Full-Stack IOT training project: car-tracker
+
+## technologies used:
+** Java
+** Spring MVC
+** MySQL
+** Angular JS
 
 ## directory structure:
 
@@ -11,3 +17,4 @@ seed for the Full-Stack IOT training project: car-tracker
 
 ## requirements:
 [https://learn.egen.io](https://learn.egen.io/courses/overview.html)
+

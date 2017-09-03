@@ -1,0 +1,6 @@
+target
+WebContent
+src/main/webapp
+.project
+.settings
+.classpath
