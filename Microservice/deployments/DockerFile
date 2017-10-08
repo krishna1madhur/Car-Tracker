@@ -1,0 +1,6 @@
+FROM frolvlad/alpine-oraclejdk8:slim
+VOLUME /tmp
+ADD carTrackerMicroservice-0.0.1-SNAPSHOT.jar carTracker.jar
+RUN sh -c 'touch /carTracker.jar'
+ENV JAVA_OPTS="-Dspring.profiles.active=prod"
+ENTRYPOINT [ "sh", "-c", "java $JAVA_OPTS -Djava.security.egd=file:/dev/./urandom -jar /carTracker.jar" 
